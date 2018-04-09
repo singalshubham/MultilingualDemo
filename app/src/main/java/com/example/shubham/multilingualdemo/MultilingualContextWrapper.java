@@ -28,7 +28,7 @@ public class MultilingualContextWrapper extends ContextWrapper {
                                              @NonNull final Configuration config) {
         return context.createConfigurationContext(config);
     }
-    
+
     // Creates a Context with updated Locale.
     public static Context wrapLocale(@NonNull final Context context,
                                      @NonNull final Locale locale) {
